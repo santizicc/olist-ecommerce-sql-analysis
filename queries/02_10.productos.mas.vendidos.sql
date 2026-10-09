@@ -2,6 +2,7 @@ SELECT
     COALESCE(t.product_category_name_english, p.product_category_name, 'unknown') AS categoria,
     ROUND(SUM(i.price), 2) AS facturacion_sin_envio,
     COUNT(DISTINCT o.order_id) AS total_pedidos,
+    ROUND(SUM(i.price) / COUNT(DISTINCT o.order_id), 2) AS facturacion_por_pedido,
     ROUND(SUM(i.price) * 100.0 / SUM(SUM(i.price)) OVER (), 2) AS porcentaje_del_total
 FROM olist_orders_dataset o
 JOIN olist_order_items_dataset i ON o.order_id = i.order_id
