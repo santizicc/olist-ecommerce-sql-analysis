@@ -5,8 +5,8 @@ preguntas de negocio con SQL. El objetivo es pasar de los datos crudos a
 conclusiones claras que sirvan para tomar decisiones.
 
 - **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
-- **Herramientas:** SQL (SQLite), DB Browser for SQLite, Python (pandas y Matplotlib) para los gráficos
-- **Autor:** Santiago, estudiante avanzado de Sistemas de Información de las Organizaciones (UBA)
+- **Herramientas:** SQL (SQLite), DB Browser for SQLite, Python (pandas y Matplotlib) para los gráficos y Power BI para el dashboard
+- **Autor:** Santiago, estudiante avanzado de Sistemas de Información de las Organizaciones (UBA) · [Fiverr]((https://pro.fiverr.com/s/ZooWgRa)) · [LinkedIn](www.linkedin.com/in/santiago-ziccardi-670abb373)
 
 > **Notas:** los montos están en reales brasileños (R$) y no incluyen el costo de envío.
 > Salvo que se indique otra cosa, se analizan pedidos entregados (`delivered`) entre
@@ -26,7 +26,7 @@ conclusiones claras que sirvan para tomar decisiones.
 
 - `queries/`: las consultas SQL de cada pregunta.
 - `results/`: los resultados en CSV y los gráficos en PNG.
-
+- `dashboard/`: capturas del panel interactivo de Power BI.
 ---
 
 ## 1. ¿Cuánto se vendió por mes y cómo evolucionó?
@@ -372,7 +372,7 @@ explorar ventas, categorías, estados y entregas con filtros por estado y año.
 
 ![Dashboard filtrado por estado](dashboard/dashboard_filtrado.png)
 
--  **Archivo del dashboard:** [descargar olist_dashboard.pbix](TU-LINK-DE-DRIVE) (se abre con Power BI Desktop, en Windows)
+-  **Archivo del dashboard:** [descargar olist_dashboard.pbix](https://drive.google.com/file/d/15vA5PhnPtPHBZJ1_KhVyB018yxs1bFJp/view?usp=sharing) (se abre con Power BI Desktop, en Windows)
 - Los valores del panel coinciden con los resultados de las consultas SQL
   (facturación de R$ 13,18 millones, 96.211 pedidos, 6,79% de entregas tarde).
   
