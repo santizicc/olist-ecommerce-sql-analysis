@@ -363,6 +363,19 @@ mensualmente el porcentaje de entregas tarde como indicador clave.
 
 ---
 
+## Dashboard interactivo en Power BI
+
+Además del análisis en SQL, armé un panel en Power BI con los mismos datos, para
+explorar ventas, categorías, estados y entregas con filtros por estado y año.
+
+![Dashboard en Power BI](dashboard/dashboard.png)
+
+![Dashboard filtrado por estado](dashboard/dashboard_filtrado.png)
+
+-  **Archivo del dashboard:** [descargar olist_dashboard.pbix](TU-LINK-DE-DRIVE) (se abre con Power BI Desktop, en Windows)
+- Los valores del panel coinciden con los resultados de las consultas SQL
+  (facturación de R$ 13,18 millones, 96.211 pedidos, 6,79% de entregas tarde).
+  
 ## Conclusiones generales
 
 1. **Dependencia geográfica:** más de un tercio de la facturación viene de São Paulo, aunque el resto del país suma más del 60%.
