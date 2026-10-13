@@ -6,7 +6,7 @@ conclusiones claras que sirvan para tomar decisiones.
 
 - **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
 - **Herramientas:** SQL (SQLite), DB Browser for SQLite, Python (pandas y Matplotlib) para los gráficos y Power BI para el dashboard
-- **Autor:** Santiago, estudiante avanzado de Sistemas de Información de las Organizaciones (UBA) · [Fiverr]((https://pro.fiverr.com/s/ZooWgRa)) · [LinkedIn](www.linkedin.com/in/santiago-ziccardi-670abb373)
+- **Autor:** Santiago, estudiante avanzado de Sistemas de Información de las Organizaciones (UBA) · [Fiverr](https://pro.fiverr.com/s/ZooWgRa) · [LinkedIn](https://www.linkedin.com/in/santiago-ziccardi-670abb373)
 
 > **Notas:** los montos están en reales brasileños (R$) y no incluyen el costo de envío.
 > Salvo que se indique otra cosa, se analizan pedidos entregados (`delivered`) entre
