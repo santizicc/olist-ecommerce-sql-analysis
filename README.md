@@ -28,7 +28,15 @@ conclusiones claras que sirvan para tomar decisiones.
 - `results/`: los resultados en CSV y los gráficos en PNG.
 - `dashboard/`: capturas del panel interactivo de Power BI.
 ---
+## Cómo reproducir el análisis
 
+1. Descargar el dataset desde Kaggle (link arriba).
+2. Importar los CSV a una base SQLite (por ejemplo con DB Browser for SQLite), usando
+   como nombre de tabla el nombre del archivo: `olist_orders_dataset`,
+   `olist_order_items_dataset`, `olist_customers_dataset`, `olist_products_dataset`,
+   `olist_order_reviews_dataset` y `product_category_name_translation`.
+3. Ejecutar las consultas de la carpeta `queries/`.
+   
 ## 1. ¿Cuánto se vendió por mes y cómo evolucionó?
 
 **Consulta:** [`queries/01_ventas_por_mes.sql`](queries/01_ventas_por_mes.sql)
