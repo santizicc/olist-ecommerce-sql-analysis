@@ -36,7 +36,9 @@ conclusiones claras que sirvan para tomar decisiones.
    `olist_order_items_dataset`, `olist_customers_dataset`, `olist_products_dataset`,
    `olist_order_reviews_dataset` y `product_category_name_translation`.
 3. Ejecutar las consultas de la carpeta `queries/`.
-   
+
+
+   - `graficos.py`: script de Python que genera los gráficos de la carpeta `results/`.
 ## 1. ¿Cuánto se vendió por mes y cómo evolucionó?
 
 **Consulta:** [`queries/01_ventas_por_mes.sql`](queries/01_ventas_por_mes.sql)
